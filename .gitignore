@@ -1,0 +1,66 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.so
+*.egg-info/
+build/
+dist/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# =========================
+# Jupyter / Colab
+# =========================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# =========================
+# PyTorch / Transformers
+# =========================
+*.pt
+*.pth
+*.bin
+*.ckpt
+
+# HuggingFace cache
+.cache/
+.huggingface/
+transformers_cache/
+
+# =========================
+# Large datasets
+# =========================
+*.fasta
+*.fa
+*.fastq
+*.csv
+*.tsv
+*.txt
+*.clstr
+
+# (Remove *.csv if you want small result CSVs uploaded)
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Logs
+# =========================
+*.log
